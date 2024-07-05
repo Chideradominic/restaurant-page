@@ -14,11 +14,11 @@ btn.forEach((btn,index) =>{
     btn.innerHTML = lables[index]
   };
   if (btn.innerText === lables[0]){
-    btn.onclick = () => loadTab(menuTab);
+    btn.onclick = () => loadTab(homeTab);
     
   }
   else if (btn.innerText === lables[1]){
-    btn. onclick = () => loadTab(homeTab)
+    btn. onclick = () => loadTab(menuTab)
   }
   else if (btn.innerText === lables[2]){
     btn. onclick = () => loadTab(contactTab)

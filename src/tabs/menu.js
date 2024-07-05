@@ -1,6 +1,6 @@
 export function createMenuTab() {
   const menuDiv = document.createElement('div');
-  menuDiv.classList.add('tab')
+  menuDiv.classList.add('menu-tab')
   menuDiv.innerHTML =`
   <h2>Menu</h2>
     <p>Here is our delicious menu!</p>
