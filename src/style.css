@@ -2,8 +2,59 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box ;
+  font-family: sans-serif;
 }
 header{
   display:flex;
   justify-content: center;
+}
+button {
+  padding: 10px;
+  margin-top: 30px;
+  border-radius: 30px;
+  background-color: rgb(1, 1, 74);
+  color: white;
+}
+button:hover{
+  background-color: blue;
+}
+button:focus{
+  background-color: rgb(132, 132, 251);
+  border-radius: 0;
+}
+.tab {
+  margin: 40px;
+}
+.contact-tab{
+  text-align: center;
+  
+  border: 2px solid rgb(0, 0, 2);
+  padding: 10px;
+  max-width:300px;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 40px;
+ 
+}
+input {
+  width: 250px;
+  padding: 10px;
+  border-radius: 10px;
+
+}
+label{
+  text-align: left;
+}
+.contact-tab div {
+  padding: 10px;
+  text-align: left;
+  font-weight: bold;
+}
+span{
+  color: red;
+}
+.contact-tab div:nth-child(8){
+ display: flex;
+ justify-content: center;
+  text-align: center;
 }
